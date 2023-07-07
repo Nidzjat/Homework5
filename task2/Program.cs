@@ -17,6 +17,6 @@ int Podschet(int[] array)
     }
     return count;
 }
-int[] arr = GetRandomArray(4, -4, 4);
+int[] arr = GetRandomArray(5, -4, 5);
 Console.WriteLine(String.Join(" ", arr));
 Console.WriteLine(Podschet(arr));

@@ -20,4 +20,3 @@ int Podschet(int[] array)
 int[] arr = GetRandomArray(10, 100, 999);
 Console.WriteLine(String.Join(" ", arr));
 Console.WriteLine(Podschet(arr));
-
